@@ -1,11 +1,15 @@
 # Byte-compiled / optimized / DLL files
+/dataset
 __pycache__/
 *.py[cod]
 *$py.class
-
+.vscode
+models/*.pt
+runs/
 # C extensions
 *.so
-
+*.mp4
+*.pt
 # Distribution / packaging
 .Python
 build/
